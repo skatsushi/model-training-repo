@@ -10,6 +10,7 @@ from datetime import datetime
 from google.cloud import bigquery
 import json 
 
+
 storage_client = storage.Client()
 bucket = storage_client.bucket("skatsushi-mlops")
 
